@@ -10,7 +10,7 @@ variable "app_port" {
 
 variable "iam_profile" {
   description = "Nombre del perfil IAM de AWS Academy"
-  default     = "LabRole"
+  default     = "LabInstanceProfile"
 }
 
 variable "instance_type" {

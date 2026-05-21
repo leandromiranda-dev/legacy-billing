@@ -20,5 +20,5 @@ variable "instance_type" {
 
 variable "my_public_ip" {
   description = "IP permitida para el Security Group"
-  default     = "0.0.0.0/0" 
+  default     = "190.104.20.154/32" 
 }
